@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray"
+    tools:context=".ResultActivity"
+    android:orientation="vertical"
+    android:gravity="center">
+    <TextView
+        android:id="@+id/textFinal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:gravity="center"
+        android:text="Result"
+        android:textColor="@color/red"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:layout_margin="20dp"/>
+    <TextView
+        android:id="@+id/textScore"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:gravity="center"
+        android:text="Result"
+        android:textColor="@color/red"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:layout_margin="20dp"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/menuButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:background="@color/red"
+        android:backgroundTint="@color/red"
+        android:text="Back To The Menu"
+        android:textColor="#EFEBE9" />
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/resultButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/red"
+        android:textColor="@color/gray"
+        android:layout_margin="20dp"
+        android:text="Show Results"/>
+
+</LinearLayout>
