@@ -34,9 +34,7 @@ class ResultActivity : AppCompatActivity() {
             finish()
         }
         resultsButton.setOnClickListener{
-            val intent = Intent(this, QuestionsResult::class.java)
-            startActivity(intent)
-            finish()
+
         }
 
 
