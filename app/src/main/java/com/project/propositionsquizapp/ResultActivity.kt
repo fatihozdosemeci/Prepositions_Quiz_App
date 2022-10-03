@@ -8,6 +8,7 @@ import android.os.Bundle
 import android.util.Log
 import android.widget.Button
 import android.widget.TextView
+import androidx.core.content.ContextCompat.startActivity
 
 
 class ResultActivity : AppCompatActivity() {
@@ -34,9 +35,7 @@ class ResultActivity : AppCompatActivity() {
             finish()
         }
         resultsButton.setOnClickListener{
-            val intent = Intent(this, QuestionsResult::class.java)
-            startActivity(intent)
-            finish()
+
         }
 
 
